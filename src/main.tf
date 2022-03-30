@@ -21,7 +21,7 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "rgmak" {
     name     = "demo-rgmak"
-    location = "aus-east"
+    location = "australiaeast"
 
     tags = {
         environment = "TF_Test_Sub_Mak"
