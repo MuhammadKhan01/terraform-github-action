@@ -5,12 +5,12 @@ terraform {
       version = "=2.46.0"
     }
   }
- backend "azurerm" {
-    resource_group_name  = "demo-rg-mak"
-    storage_account_name = "sttfstatemgt01"
-    container_name       = "tfstatemak"
-    key                  = "demo.terraform.tfstate"
-  }
+# backend "azurerm" {
+#    resource_group_name  = "demo-rg-mak"
+#    storage_account_name = "sttfstatemgt01"
+#    container_name       = "tfstatemak"
+#    key                  = "demo.terraform.tfstate"
+#  }
 }
 
 # Configure the Microsoft Azure Provider
